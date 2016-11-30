@@ -31,7 +31,7 @@ namespace BotImage
                 // calculate something for us to return
                 int length = (activity.Text ?? string.Empty).Length;
                 OcrResults res = null;
-                if (activity?.Attachments.Count() > 0)
+                if (activity?.Attachments?.Count() > 0)
                 {
                     var attachment = activity.Attachments.First();
                     if (attachment.ContentType == "image")
