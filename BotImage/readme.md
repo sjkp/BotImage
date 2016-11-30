@@ -13,4 +13,4 @@ In the web.config insert you own keys in the following values
 ```
 
 
-![screenshot.png](screenhot)
+![screenshot](screenshot.png)
